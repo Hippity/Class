@@ -12,8 +12,8 @@ def beep():
 
 def classs(link):
     options = webdriver.ChromeOptions()
-    options.add_argument("user-data-dir=C:\\Users\\Zein Zebib\\AppData\\Local\\Google\\Chrome\\User Data")
-    driver=webdriver.Chrome(executable_path='C:\\Users\Zein Zebib\Documents\Python Stuff\Online Automation\chromedriver',
+    options.add_argument("user-data-dir=" #############Enter your chrome user data path)
+    driver=webdriver.Chrome(executable_path=#########Enter your chromedriver path,
     chrome_options=options)
     driver.get(str(link))
     sleep(3)
